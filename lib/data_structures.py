@@ -20,7 +20,7 @@ def get_names(spicy_foods):
     """Returns a list of names of spicy foods."""
     return [food["name"] for food in spicy_foods]
 
-def get_spiciest_foods(spicy_foods):
+def get_average_heat_level(spicy_foods):
     """Returns a list of dictionaries where the heat level is greater than 5."""
     return [food for food in spicy_foods if food["heat_level"] > 5]
 
